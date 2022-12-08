@@ -1,1 +1,1 @@
-# https://github.com/Vo1webstvo/rsschool-cv/blob/gh-pages/cv.md
+# https://vo1webstvo.github.io/rsschool-cv/cv
