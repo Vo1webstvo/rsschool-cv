@@ -11,3 +11,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius in l
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius in labore quidem, sequi suscipit! 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius in labore quidem, sequi suscipit! 
 - - - 
+## Skills:
+* HTML
+* CSS/SASS
+* Javascript (basic)
+* React (basic)
