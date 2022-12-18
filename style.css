@@ -1,0 +1,120 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+.header {
+   margin: 0;
+   min-height: 40px;
+   background-color: #829985
+}
+
+.header_nav {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   list-style: none;
+}
+
+.header_link{
+   padding: 20px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.5;
+   
+}
+
+.header_a{
+   text-decoration: none;
+   color:#672f2f
+}
+
+.subheader{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding: 50px 30px 35px;
+   align-items:center;
+   
+}
+
+.subheader_img{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+   
+}
+
+.subheader_info{
+   font-size: 32px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.subheader_profession{
+   font-size: 32px;
+   padding-top: 50px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.main{
+   display: grid;
+   padding: 0 0 10px 20px;
+   grid-template-columns: 45% 45%;
+   column-gap: 10px;
+     
+}
+
+
+.main_contacst, .main_summary, .main_skills, .main_code, .main_courses, .main_projects, .subheader{
+border-bottom: 1px solid #672f2f;
+
+}
+
+.main_summary, .main_code, .main_projects{
+   padding-left: 30px;
+}
+
+.main_contacst{
+   font-family: 'Roboto', sans-serif;
+}
+
+.my_info{
+   text-align: center;
+   color: #829985;
+   padding: 20px 0 20px 0;
+}
+
+.footer {
+   min-height: 40px;
+   background-color: #829985;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   
+}
+
+.footer_info{
+   color:#FFFFFF
+}
+
+.footer_img{
+   width: 121px;
+   height: 45px;
+   background-image: url("./assets/svg/rs_school_js.svg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   
+}
+
+.footer_img{
+   text-decoration: none;
+}
