@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inika;
+    
+}
+
+body {
+    max-width: 1440px;
+}
+
+header{
+    background: #EDF2EC;
+    height: 134px;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding-top: 42px;
+    align-items: center;
+}
+
+.header .header_logo{
+    min-width: 80px;
+    min-height: 21px;
+}
+
+.header .header_nav{
+    min-width: 452px;
+    min-height: 50px;
+    margin-left: 655px;
+}
+
+.header .header_items{
+    display: flex;
+}
+
+.header .header_item{
+    padding-left: 44px;
+    list-style-type: none;
+}
+
+.header .header_link{
+    text-decoration: none;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+}
+
+.welcome {
+    height: 532px;
+    background: #EDF2EC;
+}
+
+.welcome .main_welcome{
+    display: flex;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 50px;
+    color: #717171;
+}
+
+h1 span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #499A18;
+}
+
+
+.main .main_img{
+    padding-top: 62px;
+}
+
+.main .main_title{
+    padding-top: 98px;
+    padding-left: 212px;
+}
+
+.main .main_lorem{
+    padding-top: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.main .btn{
+    margin-top: 48px;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
+
+.main .btn span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.main .about{
+    height: 666px;
+    background: #FFFFFF;
+}
+
+.main .about .about_wrapper{
+    display: flex;    
+}
+
+.about .main_about{
+    padding-top: 161px;
+}
+
+.about .main_about h2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.about .main_about h2 span {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733;
+}
+
+.about .main_about .about_lorem{
+    min-width: 655px;
+    min-height: 208px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #636060;
+}
+
+
+
+.about_houseplanet{
+    padding-top: 93px;
+    padding-left: 110px;
+     
+}
+
+.main .service{
+    height: 1300px;
+    background: #EDF2EC;
+}
+
+.main .service .service_wrapper{
+    display: flex;
+    min-width: 1007px;
+    min-height: 94px;   
+}
+
+.main .service .service_wrapper h2{
+    width: 306px;
+    height: 94px;
+    padding-top: 40px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    
+    color: #499A18;
+}
+
+
+.main .service .service_wrapper .service_btn{
+    padding-left: 138px;
+    min-width: 559px;
+    height: 50px;
+}
+
+.main .service .service_wrapper .service_btn .btn{
+    width: 161px;
+    height: 50px;
+    margin-right: 32px;
+    margin-top: 69px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+
+.main .service .service_items{
+    min-height: 955px;
+    display:grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 450px 450px 450px;
+    column-gap: 116px;
+    row-gap: 55px;
+}
+
+.main .service .service_items .service_item{
+    padding-top: 130px;
+    
+}
+
+.main .service .service_items .service_item .service_descr{
+    min-width: 330px;
+    min-height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+
+.main .service .service_items .service_item .service_descr h2{
+    min-width: 120px;
+    min-height: 24px;
+    padding-left: 105px;
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.main .service .service_items .service_item .service_descr .descr_text{
+    min-width: 267.19px;
+    min-height: 20px;
+    padding-top: 15px;
+    padding-left:30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    color: #717171;
+}
