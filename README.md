@@ -1,3 +1,1 @@
-https://vo1webstvo.github.io/rsschool-cv/cv
-
-https://vo1webstvo.github.io/rsschool-cv/
+https://vo1webstvo-plants1.netlify.app/
