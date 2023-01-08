@@ -265,3 +265,219 @@ h1 span {
     line-height: 20px;
     color: #717171;
 }
+
+
+.main .prices{
+    height: 525px;
+    background: #FFFFFF;
+}
+
+.main .prices .prices_wrapper{
+    display: flex;
+    min-height: 405px;
+    margin-top: 40px;
+    margin-bottom: 115px;
+}
+
+.main .prices .prices_wrapper .prices_item h2{
+    width: 135px;
+    height: 49px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.main .prices .prices_wrapper .prices_item .prices_button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 35px;
+    width: 250px;
+    min-height: 100px;
+}
+
+.main .prices .prices_wrapper .prices_item .prices_button .rbtn{
+   margin-top: 32px;
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    
+    }
+
+.main .prices .prices_wrapper .prices_item .prices_button .rbtn span{
+    margin-right: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    line-height: 20px;
+    color: #000000;
+}
+
+.main .prices .prices_wrapper .prices_contact {
+    width: 452px;
+    height: 191px;
+    margin-left: 481px;
+
+}
+
+.main .prices .prices_wrapper .prices_contact h2{
+    width: 452px;
+    height: 103px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.main .prices .prices_wrapper .prices_contact h2 span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #499A18;
+}
+.main .prices .prices_wrapper .prices_contact .span_right{
+    padding-left: 118px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.main .prices .prices_wrapper .prices_contact .prices_button{
+    width: 162px;
+    height: 50px;
+    padding-left:292px;
+    
+}
+
+.main .prices .prices_wrapper .prices_contact .practies_img{
+    width: 152px;
+    height: 174.99px;
+    padding-top: 64px;
+    padding-left: 292px;
+}
+
+.main .contacts{
+    height: 550px;
+    background: #EDF2EC;
+}
+
+.main .contacts .contacts_wrapper{
+    display: flex;
+}
+
+
+
+.main .contacts .contacts_wrapper .img_woman{
+    padding-top: 53px;
+    width: 400px;
+    min-height: 496px;
+}
+
+.main .contacts .contacts_wrapper h2{
+    margin-left: 113px;
+    margin-top: 60px;
+    width: 195px;
+    height: 51px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+
+}
+
+.main .contacts .contacts_wrapper .contacts_btn .contacts_button{
+    width: 450px;
+    height: 50px;
+    margin-left: 64px;
+    margin-top: 148px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+.main .contacts .contacts_wrapper .contacts_btn .contacts_button span{
+    padding-right:378px;
+    min-width: 204px;
+    height: 40px;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    color: #717171;
+}
+
+
+
+.footer{
+    height: 130px;
+    background: #FFFFFF;
+}
+
+.footer .footer_wrapper{
+    display: flex;
+    padding-top: 40px;
+}
+
+.footer .footer_wrapper .footer_nav{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+    color: #000000;
+    
+}
+
+.footer .footer_wrapper .footer_nav span{
+    padding-right: 20px;
+}
+
+.nav_github{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer .footer_wrapper .footer_course{
+    padding-left: 280px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.footer .footer_wrapper .footer_course a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer .footer_wrapper .footer_link{
+    padding-top:8px;
+    padding-left: 317px;
+    min-width: 188px;
+    min-height: 50px;
+}
+
+.footer .footer_wrapper .footer_link .footer_network{
+    margin-right: 11px;
+}
+
+
